@@ -16,7 +16,7 @@ Clean_data<-raw_data[,-1]
 help('reserved')
 #Sort values from largest to smallest
 sorted_age<-sort(Clean_data$age, decreasing = TRUE)
-#Convert Character into factor automatically
+#Convert the Character into factor automatically
 
 str(Clean_data)for (i in 1:ncol(Clean_data)) {
   if (is.character(Clean_data[[i]])){
