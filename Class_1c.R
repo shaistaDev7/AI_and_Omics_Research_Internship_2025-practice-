@@ -24,4 +24,4 @@ str(Clean_data)for (i in 1:ncol(Clean_data)) {
   }
   
 }
-str(Clean_data)
+Clean_data
